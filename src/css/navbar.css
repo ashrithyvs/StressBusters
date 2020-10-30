@@ -1,0 +1,10 @@
+.navbutton{
+     border: 0px ;
+     font-family: "Montserrat-600", sans-serif;
+     font-size: 15px;
+}
+.nav-brand{
+    font-family: "Kaushan Script", cursive;
+    font-size: 37px;
+    letter-spacing: 5px
+}
