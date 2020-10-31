@@ -4,7 +4,7 @@ Hackermen prototype submission
 
 1. Team name 
 
-  Hackermen
+   Hackermen
 
 2. Team members name 
 
@@ -44,3 +44,16 @@ Our project aims to allow people to let out a little steam. So we proposed to de
 10. Link for Video / ppt showing how the prototype works ( be as creative and innovative as possible ).  
 
    ANSWER
+   
+   
+ Instructions to execute the project:
+ 1)clone the project.
+ 2)navigate to project folder and open GITBash/Hyper/Any CLI in that location.
+ 3)type npm start.
+ *it will take few moments to open the url*
+ 
+ *if the url doesn't open automatically follow bellow step*
+ 4)open google chrome(recommended) and type "https://localhost:3000" in URL bar.
+ 
+ for queries:
+ contact: ashrithy20@gmail.com
