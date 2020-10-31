@@ -42,10 +42,11 @@ function Services() {
             </CardColumns>
             <CardColumns>
               <ServiceCard
-                title="VR Gaming/Exploration"
-                body="It's always been our dream to enter the world of gaming and play there. With today's technology, that is very much possible! With our various VR sets. All we can say now is have fun!😉"
-                imgsrc={vrgames}
+                title="De-Addiction"
+                body="Addiction to habits which are not healthy to your mental and physical body can be treated with 'Dopomine Detox' therapy. In this Therapy, we will guide you to detox the habits which are not good."
+                imgsrc={Deaddiction}
               />
+
               <ServiceCard
                 title="Karoake"
                 body="Always wanted to sing something but have no stage? We provide you the room to bring out your courage and enjoy to the peaks with your Colleagues/Friends/Family."
@@ -65,13 +66,13 @@ function Services() {
               />
               <ServiceCard
                 title="Blind Date"
-                body="Meeting new people is always kinda interesting and stress-relieving. Our Blind Dates organizing helps people to meet and interact with opposite gender"
+                body="Meeting new people & forming new relationships is always kinda interesting and stress-relieving. Our Blind Dates organizing helps people to meet and interact with opposite gender"
                 imgsrc={Blinddate}
               />
               <ServiceCard
-                title="De-Addiction"
-                body="Addiction to habits which are not healthy to your mental and physical body can be treated with 'Dopomine Detox' therapy. In this Therapy, we will guide you to detox the habits which are not good."
-                imgsrc={Deaddiction}
+                title="VR Gaming/Exploration"
+                body="It's always been our dream to enter the world of gaming and play there. With today's technology, that is very much possible! With our various VR sets. All we can say now is have fun!😉"
+                imgsrc={vrgames}
               />
             </CardColumns>
           </div>

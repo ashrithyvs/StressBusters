@@ -15,7 +15,7 @@ function Intro() {
         <Container style={{ padding: "15% 0% 10%" }}>
           <div class="intro-text text-dark">
             <div>
-              <h1>Life is too short to stress yourself.</h1>
+              <h1>Life is too short to get stressed.</h1>
             </div>
             <div>
               <h3>

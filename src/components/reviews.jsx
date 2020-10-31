@@ -9,7 +9,7 @@ function Reviews() {
       <section style={{ padding: "10% 0% 10%" }} id="reviews">
         <div>
           <h1 class="text-center pb-5" style={{ fontSize: "50px" }}>
-            Reviews
+            Testimonials
           </h1>
         </div>
         <Container>
