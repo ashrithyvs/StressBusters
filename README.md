@@ -43,13 +43,13 @@ Our project aims to allow people to let out a little steam. So we proposed to de
 
 10. Link for Video / ppt showing how the prototype works ( be as creative and innovative as possible ).  
 
-   ANSWER
+      https://drive.google.com/file/d/1ZEXbJymVTiwPUeIOGVJzzpwg2_9sMQ00/view?usp=sharing
    
    
  Instructions to execute the project:
  1)clone the project.
  2)navigate to project folder and open GITBash/Hyper/Any CLI in that location.
- 3)type npm install *it will take few moments*
+ 3)type npm install to download all the required dependencies*it will take few moments*
  4)type npm start.
  *it will take few moments to open the url*
  
