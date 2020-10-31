@@ -7,7 +7,9 @@ function ServiceCard(props) {
         <Card.Img variant="top" src={props.imgsrc} />
         <Card.Body>
           <Card.Title>{props.title}</Card.Title>
-          <Card.Text>{props.body}</Card.Text>
+          <Card.Text>
+            <p>{props.body}</p>
+          </Card.Text>
         </Card.Body>
       </Card>
     </div>

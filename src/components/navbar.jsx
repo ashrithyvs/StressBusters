@@ -22,7 +22,7 @@ function Navigation() {
           style={{ color: "rgb(254,209,54)" }}
           href="#home"
         >
-          StressBuster
+          StressBusters
         </NavbarBrand>
         <NavbarToggle aria-controls="basic-navbar-nav" />
         <NavbarCollapse id="basic-navbar-nav">

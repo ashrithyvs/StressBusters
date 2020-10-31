@@ -4,9 +4,10 @@ import { Button, Col, Container } from "react-bootstrap";
 import cbg from "./images/c2.png";
 
 const bg = {
-  backgroundImage: `url(${cbg})`,
-  backgroundSize: "cover",
-  height: "120vh",
+  // backgroundImage: `url(${cbg})`,
+  // backgroundSize: "cover",
+  // height: "120vh",
+  background: "#212529",
   padding: "10% 0% 5%",
 };
 
@@ -27,10 +28,10 @@ function Contact() {
     <div>
       <section className="bg-dark" id="contact" style={bg}>
         <h1 class="text-center" style={{ color: "#FED136", fontSize: "50px" }}>
-          Want to Ping US?
+          Want to Ping us?
         </h1>
         <Form
-          style={{ padding: "5% 10% 5%" }}
+          style={{ padding: "5% 5% 5% 10%" }}
           noValidate
           validated={validated}
           onSubmit={handleSubmit}

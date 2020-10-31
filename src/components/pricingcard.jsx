@@ -21,6 +21,9 @@ function PricingCard(props) {
         >
           Buy Now!
         </Button>
+        <Card.Footer>
+          <small className="text-muted">{props.footer}</small>
+        </Card.Footer>
       </Card>
     </div>
   );
