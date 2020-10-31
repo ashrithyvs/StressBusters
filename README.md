@@ -41,20 +41,24 @@ Our project aims to allow people to let out a little steam. So we proposed to de
 
    HTML, CSS, JavaScript, React, React-Bootstrap, Bootstrap-studio.
 
-10. Link for Video / ppt showing how the prototype works ( be as creative and innovative as possible ).  
+10. Link for Video / ppt showing how the prototype works ( be as creative and innovative as possible ). 
 
-      https://drive.google.com/file/d/1ZEXbJymVTiwPUeIOGVJzzpwg2_9sMQ00/view?usp=sharing
+   https://drive.google.com/file/d/1WwoDcbOwdj7_LqxPEEbMikBG_Irzl4L5/view?usp=sharing
    
    
  Instructions to execute the project:
  1)clone the project.
  2)navigate to project folder and open GITBash/Hyper/Any CLI in that location.
- 3)type npm install to download all the required dependencies*it will take few moments*
+ 3)type npm install to download all the required dependencies
+ *it will take few moments*
  4)type npm start.
  *it will take few moments to open the url*
  
  *if the url doesn't open automatically follow bellow step*
+ 
  5)open google chrome(recommended) and type "https://localhost:3000" in URL bar.
+ 
+ P.S: we will update login and registration pages before end of Round 2 or soon ;)
  
  for queries:
  contact: ashrithy20@gmail.com
