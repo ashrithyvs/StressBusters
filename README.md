@@ -53,10 +53,11 @@ Our project aims to allow people to let out a little steam. So we proposed to de
  *it will take few moments*
  4)type npm start.
  *it will take few moments to open the url*
- 
+ *if you get an error saying "emailjs-com module not found" follow below step*
+ 5)npm i emailjs-com
  *if the url doesn't open automatically follow bellow step*
  
- 5)open google chrome(recommended) and type "https://localhost:3000" in URL bar.
+ 6)open google chrome(recommended) and type "https://localhost:3000" in URL bar.
  
  P.S: we will update login and registration pages before end of Round 2 or soon ;)
  
