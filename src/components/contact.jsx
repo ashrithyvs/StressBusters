@@ -1,28 +1,33 @@
-import React, { useState } from "react";
+import React from "react";
 import Form from "react-bootstrap/Form";
-import { Button, Col, Container } from "react-bootstrap";
-import cbg from "./images/c2.png";
-
+import { Button, Col } from "react-bootstrap";
+import emailjs from "emailjs-com";
 const bg = {
-  // backgroundImage: `url(${cbg})`,
-  // backgroundSize: "cover",
-  // height: "120vh",
   background: "#212529",
   padding: "10% 0% 5%",
 };
 
 function Contact() {
-  const [validated, setValidated] = useState(false);
+  function sendEmail(e) {
+    e.preventDefault();
 
-  const handleSubmit = (event) => {
-    const form = event.currentTarget;
-    if (form.checkValidity() === false) {
-      event.preventDefault();
-      event.stopPropagation();
-    }
-
-    setValidated(true);
-  };
+    emailjs
+      .sendForm(
+        "service_jvktgal",
+        "stressbusters",
+        e.target,
+        "user_04NgBa6OrljmYyYztWVK5"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+  }
 
   return (
     <div>
@@ -33,8 +38,7 @@ function Contact() {
         <Form
           style={{ padding: "5% 5% 5% 10%" }}
           noValidate
-          validated={validated}
-          onSubmit={handleSubmit}
+          onSubmit={sendEmail}
         >
           <Form.Group>
             <Form.Label style={{ color: "#FED136" }}>
@@ -42,10 +46,20 @@ function Contact() {
             </Form.Label>
             <Form.Row>
               <Col sm={3}>
-                <Form.Control required type="text" placeholder="First Name" />
+                <Form.Control
+                  required
+                  type="text"
+                  placeholder="First Name"
+                  name="first_name"
+                />
               </Col>
               <Col sm={3}>
-                <Form.Control required type="text" placeholder="Last Name" />
+                <Form.Control
+                  required
+                  type="text"
+                  name="last_name"
+                  placeholder="Last Name"
+                />
               </Col>
             </Form.Row>
           </Form.Group>
@@ -57,6 +71,7 @@ function Contact() {
                 </Form.Label>
                 <Form.Control
                   required
+                  name="email"
                   type="email"
                   placeholder="Your Email Address"
                 />
@@ -85,13 +100,14 @@ function Contact() {
                 </Form.Label>
                 <Form.Control
                   as="textarea"
+                  name="message"
                   rows={5}
                   placeholder="Enter your Message here"
                 />
               </Col>
             </Form.Row>
           </Form.Group>
-          <Button variant="outline-warning" type="submit">
+          <Button variant="outline-warning" type="submit" value="Send">
             Submit
           </Button>
         </Form>
@@ -99,4 +115,5 @@ function Contact() {
     </div>
   );
 }
+
 export default Contact;
