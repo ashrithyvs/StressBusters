@@ -7,10 +7,10 @@ function PricingCard(props) {
       <Card className="rounded-lg">
         <Card.Body>
           <Card.Title>
-            <h3 class="text-center mt-3">{props.title}</h3>
+            <h4 class="text-center mt-3">{props.title}</h4>
           </Card.Title>
           <Card.Text>
-            <h1>{props.price}</h1>
+            <h2 className="text-center">{props.price}</h2>
           </Card.Text>
           <Card.Text class="mx-2 mt-3">{props.description}</Card.Text>
         </Card.Body>

@@ -45,7 +45,6 @@ function About() {
                 the harsh reality even if it's just for some time.
               </h4>
             </div>
-            <h3 style={{ fontSize: "35px" }}></h3>
           </Container>
         </section>
       </div>

@@ -13,9 +13,9 @@ function Intro() {
     <div>
       <header class="intro" style={bg}>
         <Container style={{ padding: "15% 0% 10%" }}>
-          <div class="intro-text text-dark">
+          <div class="text-center text-dark">
             <div>
-              <h1>Life is too short to get stressed.</h1>
+              <h2>Life is too short to get stressed.</h2>
             </div>
             <div>
               <h3>
@@ -23,20 +23,10 @@ function Intro() {
               </h3>
             </div>
             <div class="btn-wrapper mt-4">
-              <Button
-                class="mx-3"
-                style={{ position: "relative", left: "51%" }}
-                variant="warning"
-              >
+              <Button className="mx-3" variant="warning">
                 Login
               </Button>
-              <Button
-                class="mr-3"
-                style={{ position: "relative", left: "37%" }}
-                variant="warning"
-              >
-                Register
-              </Button>
+              <Button variant="warning">Register</Button>
             </div>
           </div>
         </Container>

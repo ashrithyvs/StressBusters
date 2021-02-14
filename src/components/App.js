@@ -9,7 +9,7 @@ import Footer from "./footer";
 import Pricing from "./pricing";
 function App() {
   return (
-    <div>
+    <div style={{ fontFamily: "Montserrat, sans-serif" }}>
       <Navbar />
       <Intro />
       <About />
