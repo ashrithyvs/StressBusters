@@ -10,10 +10,10 @@ import "../css/navbar.css";
 
 function Navigation() {
   return (
-    <div class="mb-5 pb-4">
+    <div class="mb-5 ">
       <Navbar
         fixed="top"
-        style={{ background: "rgb(33,37,41)", padding: "1%" }}
+        style={{ background: "rgb(33,37,41)" }}
         variant="dark"
         expand="lg"
       >
